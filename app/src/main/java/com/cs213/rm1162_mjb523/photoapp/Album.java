@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 /**
  * An album object that has a name and contains photos
- * @author Bhargav
+ * @author Rohit Mahankali & Michael Belmont
  *
  */
 public class Album implements Serializable{

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android67</string>
+    <string name="app_name">Android81</string>
     <string name="albums">Albums</string>
     <string name="create_album_button">Create</string>
     <string name="delete_album_button">Delete</string>

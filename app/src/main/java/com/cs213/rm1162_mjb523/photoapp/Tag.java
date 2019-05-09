@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * Tag has (location, london) = type: location = value: london
  * and helper methods for it
- * @author asraar
+ * @author Rohit Mahankali & Michael Belmont
  *
  */
 public class Tag implements Serializable{

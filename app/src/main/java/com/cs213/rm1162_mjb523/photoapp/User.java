@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 /**
  * Object representing a User of the PhotoApp
- * @author Asraar
+ * @author Rohit Mahankali & Michael Belmont
  *
  */
 public class User implements Serializable{

@@ -16,7 +16,7 @@ import android.provider.OpenableColumns;
 
 /**
  * photo class wraps around actual photo location, tags, caption
- * @author asraar
+ * @author Rohit Mahankali & Michael Belmont
  *
  */
 public class Photo implements Serializable{
