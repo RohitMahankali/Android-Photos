@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Android67</string>
+    <string name="albums">Albums</string>
+    <string name="create_album_button">Create</string>
+    <string name="delete_album_button">Delete</string>
+    <string name="rename_album_button">Rename</string>
+    <string name="search_button">Search</string>
+    <string name="open_album_button">Open</string>
+    <string name="photo_list_activity">Photos</string>
+
+    <string name="add_photo_button">Add</string>
+    <string name="remove_photo_button">Remove</string>
+    <string name="slideshow_button">Slideshow</string>
+    <string name="display_button">Display</string>
+    <string name="move_photo_button">Move</string>
+    <string name="display_photo_activity">Display</string>
+    <string name="slideshow_activity">Slideshow</string>
+    <string name="add_tag_button">Add Tag</string>
+    <string name="delete_tag_button">Delete Tag</string>
+    <string name="tag_text">Tags</string>
+    <string name="next_button">Next Photo</string>
+    <string name="prev_button">Previous Photo</string>
+    <string name="search_activity">Search</string>
+    <string name="search_results">Search Results</string>
+    <string name="search_parameters">Search Parameters</string>
+    <string name="tag_type">Tag Type:</string>
+    <string name="tag_value">Enter Tag Value</string>
+    <string name="and">AND</string>
+    <string name="or">OR</string>
+    <string name="addParameter">Add</string>
+    <string name="deleteParameter">Delete</string>
+    <string name="moveTo">Move to Album</string>
+    <string name="cancel">Cancel</string>
+    <string name="createAlbum">Create Album</string>
+    <string name="renameAlbum">Rename Album</string>
+    <string name="album_name">Album Name</string>
+    <string name="current_name">Current Name:</string>
+    <string name="person">Person</string>
+    <string name="location">Location</string>
+    <string name="go_back">Go Back</string>
+</resources>

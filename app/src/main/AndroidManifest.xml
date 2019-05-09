@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cs213.rm1162_mjb523.photoapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.cs213.rm1162_mjb523.photoapp.Albums"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cs213.rm1162_mjb523.photoapp.PhotoList"
+            android:label="@string/photo_list_activity" />
+        <activity
+            android:name="com.cs213.rm1162_mjb523.photoapp.DisplayPhoto"
+            android:label="@string/display_photo_activity" />
+
+        <!-- <meta-data -->
+        <!-- android:name="preloaded_fonts" -->
+        <!-- android:resource="@array/preloaded_fonts" /> -->
+
+        <activity
+            android:name="com.cs213.rm1162_mjb523.photoapp.Slideshow"
+            android:label="@string/slideshow_activity" />
+        <activity
+            android:name="com.cs213.rm1162_mjb523.photoapp.Search"
+            android:label="@string/search_activity" />
+        <activity
+            android:name="com.cs213.rm1162_mjb523.photoapp.Move"
+            android:label="@string/moveTo" />
+        <activity
+            android:name="com.cs213.rm1162_mjb523.photoapp.CreateAlbumPopup"
+            android:label="@string/createAlbum" />
+        <activity
+            android:name="com.cs213.rm1162_mjb523.photoapp.RenameAlbumPopup"
+            android:label="Rename Album" />
+        <activity
+            android:name="com.cs213.rm1162_mjb523.photoapp.AddTag"
+            android:label="Add Tag"></activity>
+        <activity
+            android:name="com.cs213.rm1162_mjb523.photoapp.SearchResults"
+            android:label="Search Results"></activity>
+    </application>
+
+</manifest>
